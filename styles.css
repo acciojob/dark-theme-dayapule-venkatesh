@@ -5,7 +5,9 @@
   background-color: black;
   color:white;
 }
-
+p{
+	color:skyblue;
+}
 #swap{
   outline:0;
 }
