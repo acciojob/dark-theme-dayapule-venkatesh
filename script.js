@@ -1,15 +1,15 @@
 //your code here
+function swapTheme(){
 let btn=document.querySelector("#swap");
 let container=document.querySelector("#app")
-let current=true
-btn.addEventListener("click", (e)=>{
-	if(current){
-		container.style.backgroundColor="black"
-		current=false
+	if(btn.className=="button_day"){
+		container.className="night";
+		btn.className="button_night"
 	}
 	else{
-		container.style.backgroundColor="white";
-		current=true;
+		container.className="day"
+		btn.className="button_day"
 	}
-})
 
+	
+}
